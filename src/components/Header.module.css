@@ -1,0 +1,21 @@
+
+.headerMainScreen {
+  height: 100vh;
+  background-image: url('../../public/cap.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.headerLogo {
+  width: 150px;
+
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+  
+}
