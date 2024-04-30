@@ -1,11 +1,12 @@
 
 .headerMainScreen {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('../../public/cap.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
+  color: #fff;
 }
 
 .headerLogo {
@@ -15,7 +16,38 @@
 
 .headerNav {
   display: flex;
-  justify-content: space-between;
-  margin: 0 25px;
+  /* justify-content: space-between; */
+  margin: 0 35px;
   
+}
+
+.phoneNumbers {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.phoneNumbers a:hover {
+  color: red;
+}
+
+
+.headerTitle {
+  text-align: center;
+  max-width: 1100px;
+  margin: 350px auto 40px;
+  font-size: 42px;
+}
+
+.headerTitle span {
+  color: red;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 }

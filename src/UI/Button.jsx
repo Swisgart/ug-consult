@@ -1,8 +1,8 @@
-
+import styles from './Button.module.css'
 
 function Button(props) {
   return (
-    <button>{props.text}</button>
+    <button className={styles.redButton}>{props.text}</button>
   )
 }
 

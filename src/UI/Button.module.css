@@ -1,1 +1,22 @@
 
+.redButton {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 109.5%;
+  color: #fff !important;
+  min-height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #dd3e38;
+  border: 2px solid #dd3e38;
+  border-radius: 126.667px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.redButton:hover {
+  background: #a41914;
+}
