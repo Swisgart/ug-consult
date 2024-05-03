@@ -1,0 +1,19 @@
+.achiveWrapper {
+  height: 100vh;
+  text-align: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 50px ;
+}
+
+.achiveItem img {
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.achiveItem img:hover {
+  border-radius: 5px;
+}
+
+.redText {
+  color: red;
+}

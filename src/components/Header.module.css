@@ -11,7 +11,7 @@
 
 .headerLogo {
   width: 150px;
-
+  height: 80px;
 }
 
 .headerNav {
@@ -30,7 +30,7 @@
 }
 
 .phoneNumbers a:hover {
-  color: red;
+  color: #dd3e38;
 }
 
 
@@ -42,7 +42,7 @@
 }
 
 .headerTitle span {
-  color: red;
+  color: #dd3e38;
 }
 
 .btn {

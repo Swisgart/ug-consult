@@ -2,4 +2,36 @@
 
 .contactsWrapper {
   min-height: 100vh;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contactsTitle {
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.contactsTitle span {
+  color: #dd3e38;
+}
+
+.contactsInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.contactsInfo {
+  font-size: 24px;
+  transition: all 0.3s;
+}
+.contactsInfo p {
+  margin-bottom: 10px;
+}
+.contactsInfo a:hover {
+  color: #dd3e38;
 }
